@@ -1,13 +1,18 @@
 import Image from "next/image";
 import HeroSection from "./components/HeroSection";
+import OverViewSection from "./components/OverViewSection";
 
 export default function Home() {
 	return (
 		<main className="bg-primary">
 		
 			{/* Sections */}
-			<section id="home" className="h-screen ">
+			<section id="home" className=" ">
 				<HeroSection />
+			</section>
+
+			<section id="overview" className="">
+				<OverViewSection />
 			</section>
 
 			<section id="explore" className="h-screen ">

@@ -29,10 +29,10 @@ export default function HeroSection() {
 			 
 			<div className="h-screen relative w-full bg-transparent flex flex-col items-center justify-center overflow-hidden -top-10 md:-top-20 p-4 ">
 				<div className=" relative z-10 w-full text-left border-0 px-4">
-					<h1 className=" text-2xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
+					<h1 className="text-2xl text-center  md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
 						Hi, i'm
 					</h1>
-					<h1 className=" text-2xl  mt-2 md:text-7xl font-bold text-indigo-400">
+					<h1 className=" text-3xl ml-1 text-center  mt-2 md:text-7xl font-bold text-indigo-400">
 						<FlipWords words={words} />
 					</h1>
 					<div className="mt-10">
